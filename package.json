@@ -1,0 +1,43 @@
+{
+   "name": "node-express-template",
+   "version": "1.0.0",
+   "description": "",
+   "main": "index.js",
+   "scripts": {
+      "start": "npm run build && npm run launch",
+      "launch": "ts-node src/index.ts",
+      "build": "tsc",
+      "test": "echo \"Error: no test specified\" && exit 1"
+   },
+   "keywords": [],
+   "author": "",
+   "license": "ISC",
+   "dependencies": {
+      "@types/bcryptjs": "^2.4.2",
+      "@types/body-parser": "^1.19.0",
+      "@types/cors": "^2.8.8",
+      "@types/helmet": "^4.0.0",
+      "@types/jsonwebtoken": "^8.5.0",
+      "bcryptjs": "^2.4.3",
+      "class-validator": "^0.12.2",
+      "cors": "^2.8.5",
+      "express": "^4.17.1",
+      "helmet": "^4.2.0",
+      "jsonwebtoken": "^8.5.1",
+      "jwks-rsa": "^1.12.2",
+      "mysql": "^2.18.1",
+      "reflect-metadata": "^0.1.10",
+      "ts-node-dev": "^1.0.0",
+      "typeorm": "^0.2.29",
+      "typescript": "^4.0.5"
+   },
+   "devDependencies": {
+      "@types/express": "^4.17.9",
+      "@types/node": "^8.0.29",
+      "concurrently": "^5.3.0",
+      "nodemon": "^2.0.6",
+      "rimraf": "^3.0.2",
+      "ts-node": "3.3.0",
+      "typescript": "3.3.3333"
+   }
+}
